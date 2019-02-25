@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
 This is my First CocoaPods Framework. Which is very useful to add at Starting of the project.
                        DESC
 
-  s.homepage         = 'https://github.com/chinmaypatel1112/chinmayframwork'
+  s.homepage         = 'https://github.com/chinmaypatel1112/chinmayframework'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chinmaypatel1112' => 'chinmay.patel1112@gmail.com' }
-  s.source           = { :git => 'https://github.com/chinmaypatel1112/chinmayframwork.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/chinmaypatel1112/chinmayframework.git', :tag => s.version.to_s }
 
 
   s.ios.deployment_target = '8.0'
