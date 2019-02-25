@@ -1,0 +1,22 @@
+{
+  "name": "chinmayframework",
+  "version": "0.1.0",
+  "summary": "A short description of chinmayframework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chinmay.patel1112@gmail.com/chinmayframework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chinmay.patel1112@gmail.com": "chinmay.patel1112@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/chinmay.patel1112@gmail.com/chinmayframework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "chinmayframework/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module chinmayframework {
+  umbrella header "chinmayframework-umbrella.h"
+
+  export *
+  module * { export * }
+}

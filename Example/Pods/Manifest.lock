@@ -1,0 +1,16 @@
+PODS:
+  - chinmayframework (0.1.0)
+
+DEPENDENCIES:
+  - chinmayframework (from `../`)
+
+EXTERNAL SOURCES:
+  chinmayframework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  chinmayframework: e945e5c94d30afcb2246707020170725a0ee97a4
+
+PODFILE CHECKSUM: c6f817b6231c4e1cb8d6b148ad2deea829fa4f16
+
+COCOAPODS: 1.5.3
