@@ -45,7 +45,7 @@ public class service {
     
     
     //For odd even color add into utility class
-    public static func hexStringToUIColorOdd (hex:String) -> UIColor
+    public static func hexStringToUIColorWithAlpha (hex:String, alpha:CGFloat) -> UIColor
     {
         var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
         
@@ -64,32 +64,11 @@ public class service {
             red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
             green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
             blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
-            alpha: CGFloat(0.51)
+            alpha: CGFloat(alpha)
         )
     }
     
-    public static func hexStringToUIColorEven (hex:String) -> UIColor
-    {
-        var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
-        
-        if (cString.hasPrefix("#")) {
-            cString.remove(at: cString.startIndex)
-        }
-        
-        if ((cString.count) != 6) {
-            return UIColor.gray
-        }
-        
-        var rgbValue:UInt32 = 0
-        Scanner(string: cString).scanHexInt32(&rgbValue)
-        
-        return UIColor(
-            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
-            green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
-            blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
-            alpha: CGFloat(0.10)
-        )
-    }
+    
     
     
     public static func heightForView(text:String, font:UIFont, width:CGFloat) -> CGFloat
@@ -106,19 +85,13 @@ public class service {
     }
     
     
-    public static func heightForView2(text:String, font:UIFont, font2:UIFont ,width:CGFloat) -> CGFloat
-    {
-        let label:UILabel = UILabel(frame: CGRect(x: 0, y: 0, width: width, height: CGFloat.greatestFiniteMagnitude))
-        label.numberOfLines = 0
-        label.lineBreakMode = NSLineBreakMode.byWordWrapping
-        label.font = font
-        label.font = font2
-        label.text = text
+    // MARK:- Check Internet
+    public static func isInternetHasConnectivity() -> Bool {
         
-        label.sizeToFit()
-        return label.frame.height
+        //TODO: TAKE CARE !!!
+        let flag = Reachability()?.isReachable
+        return flag!
     }
-    
     
     
     public static func getDirectoryPath() -> String {
@@ -126,6 +99,7 @@ public class service {
         let documentsDirectory = paths[0]
         return documentsDirectory
     }
+    
     
 
 

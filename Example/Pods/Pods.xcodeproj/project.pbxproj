@@ -12,6 +12,10 @@
 		524C832633069B638F0D87A3587DE172 /* Pods-chinmayframework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7D5A214F54DBBDF9AD0DFD82044AF3 /* Pods-chinmayframework_Example-dummy.m */; };
 		59C4278DF446B05E43760DC06F9BA9FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		60B7AB632223C31200A44656 /* myFirstClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7AB622223C31200A44656 /* myFirstClass.swift */; };
+		60B7AB66222413D100A44656 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7AB64222413D100A44656 /* Reachability.swift */; };
+		60B7AB67222413D100A44656 /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7AB65222413D100A44656 /* WebServiceManager.swift */; };
+		60B7AB6C222414AE00A44656 /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7AB6A222414AE00A44656 /* Extension + UIView.swift */; };
+		60B7AB6D222414AF00A44656 /* Extension + UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7AB6B222414AE00A44656 /* Extension + UIViewController.swift */; };
 		8202058BEDEC1AAD8270D59E38A52FF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		89B27AAFEAE0848726CA4681DF057579 /* Pods-chinmayframework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F689B13488DD0B149E7FE264890F468C /* Pods-chinmayframework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D105EA096EF58AAA4B0783A1E2C7D20 /* chinmayframework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A5179CA2E35E7EB31985428FCF64BA /* chinmayframework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -51,6 +55,10 @@
 		53F65BF952A2CAABB7151CE486ADD204 /* Pods-chinmayframework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-chinmayframework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5AE21A6305FD1B05F2960E5EB371D60D /* Pods-chinmayframework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-chinmayframework_Example-umbrella.h"; sourceTree = "<group>"; };
 		60B7AB622223C31200A44656 /* myFirstClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFirstClass.swift; sourceTree = "<group>"; };
+		60B7AB64222413D100A44656 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		60B7AB65222413D100A44656 /* WebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
+		60B7AB6A222414AE00A44656 /* Extension + UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
+		60B7AB6B222414AE00A44656 /* Extension + UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIViewController.swift"; sourceTree = "<group>"; };
 		7B9BAD353BBFE2A7817D5264A4FB83BD /* Pods-chinmayframework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-chinmayframework_Example.modulemap"; sourceTree = "<group>"; };
 		8523D710CEE9DD1B9742976AC4FCE515 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8648B566BD312D12D9D746E2CD4407A4 /* Pods_chinmayframework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chinmayframework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,8 +168,28 @@
 			isa = PBXGroup;
 			children = (
 				60B7AB622223C31200A44656 /* myFirstClass.swift */,
+				60B7AB692224148F00A44656 /* Extensions */,
+				60B7AB682224147100A44656 /* Web Service Manager */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		60B7AB682224147100A44656 /* Web Service Manager */ = {
+			isa = PBXGroup;
+			children = (
+				60B7AB64222413D100A44656 /* Reachability.swift */,
+				60B7AB65222413D100A44656 /* WebServiceManager.swift */,
+			);
+			path = "Web Service Manager";
+			sourceTree = "<group>";
+		};
+		60B7AB692224148F00A44656 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				60B7AB6A222414AE00A44656 /* Extension + UIView.swift */,
+				60B7AB6B222414AE00A44656 /* Extension + UIViewController.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		6468BD2A6D90A95DED9A3A8B591A619F /* Targets Support Files */ = {
@@ -399,8 +427,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60B7AB6D222414AF00A44656 /* Extension + UIViewController.swift in Sources */,
+				60B7AB67222413D100A44656 /* WebServiceManager.swift in Sources */,
+				60B7AB6C222414AE00A44656 /* Extension + UIView.swift in Sources */,
 				F70D704013BEE11CFFDE57029DB67149 /* chinmayframework-dummy.m in Sources */,
 				60B7AB632223C31200A44656 /* myFirstClass.swift in Sources */,
+				60B7AB66222413D100A44656 /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
