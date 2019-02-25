@@ -11,9 +11,9 @@
 		4306C874471F7A43FFC174F772EE5AC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		524C832633069B638F0D87A3587DE172 /* Pods-chinmayframework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7D5A214F54DBBDF9AD0DFD82044AF3 /* Pods-chinmayframework_Example-dummy.m */; };
 		59C4278DF446B05E43760DC06F9BA9FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		60B7AB632223C31200A44656 /* myFirstClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7AB622223C31200A44656 /* myFirstClass.swift */; };
 		8202058BEDEC1AAD8270D59E38A52FF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		89B27AAFEAE0848726CA4681DF057579 /* Pods-chinmayframework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F689B13488DD0B149E7FE264890F468C /* Pods-chinmayframework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		940915DBFFA2E66A4AB4BD0EE473FC50 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD32A231D36117E59C78FE380A848A9 /* ReplaceMe.swift */; };
 		9D105EA096EF58AAA4B0783A1E2C7D20 /* chinmayframework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A5179CA2E35E7EB31985428FCF64BA /* chinmayframework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEA3A176E44B900BDB63D7BAF1A304BF /* Pods-chinmayframework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BC5DAD797EA09F5688B05BCCA1F379 /* Pods-chinmayframework_Tests-dummy.m */; };
 		F70D704013BEE11CFFDE57029DB67149 /* chinmayframework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BA858663F2FB903C29FB9E4B3DB92A /* chinmayframework-dummy.m */; };
@@ -37,24 +37,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		010A88FA6DEEE31601619B5026D62889 /* chinmayframework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = chinmayframework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		010A88FA6DEEE31601619B5026D62889 /* chinmayframework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = chinmayframework.podspec; sourceTree = "<group>"; };
 		0B586160AE9E65CD770642C027D8FC01 /* Pods-chinmayframework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-chinmayframework_Tests.modulemap"; sourceTree = "<group>"; };
-		1E1E3B69C4DC87C10148CC5A9746655C /* chinmayframework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = chinmayframework.framework; path = chinmayframework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E1E3B69C4DC87C10148CC5A9746655C /* chinmayframework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = chinmayframework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C373E3460ACC8FC4E23374AC2A2D66 /* chinmayframework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = chinmayframework.xcconfig; sourceTree = "<group>"; };
 		2E8C213F5C13CE5DF8BD641D89C2B3DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30FDA1D2FB0B621894A9531CE4281E82 /* Pods-chinmayframework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-chinmayframework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		31B645B1A792F20C4482CE07664E2CD9 /* Pods-chinmayframework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-chinmayframework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		38BA858663F2FB903C29FB9E4B3DB92A /* chinmayframework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "chinmayframework-dummy.m"; sourceTree = "<group>"; };
 		4011F96695C142AA9B2E60B8959CE671 /* Pods-chinmayframework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-chinmayframework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		47E814E308BDE976BB3D391D2FEA4ADA /* Pods_chinmayframework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_chinmayframework_Example.framework; path = "Pods-chinmayframework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E814E308BDE976BB3D391D2FEA4ADA /* Pods_chinmayframework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chinmayframework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B9E30A2C4629DB945846B13632CBF0 /* Pods-chinmayframework_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-chinmayframework_Example-resources.sh"; sourceTree = "<group>"; };
 		53F65BF952A2CAABB7151CE486ADD204 /* Pods-chinmayframework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-chinmayframework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5AD32A231D36117E59C78FE380A848A9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = chinmayframework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		5AE21A6305FD1B05F2960E5EB371D60D /* Pods-chinmayframework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-chinmayframework_Example-umbrella.h"; sourceTree = "<group>"; };
+		60B7AB622223C31200A44656 /* myFirstClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFirstClass.swift; sourceTree = "<group>"; };
 		7B9BAD353BBFE2A7817D5264A4FB83BD /* Pods-chinmayframework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-chinmayframework_Example.modulemap"; sourceTree = "<group>"; };
-		8523D710CEE9DD1B9742976AC4FCE515 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		8648B566BD312D12D9D746E2CD4407A4 /* Pods_chinmayframework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_chinmayframework_Tests.framework; path = "Pods-chinmayframework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8523D710CEE9DD1B9742976AC4FCE515 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8648B566BD312D12D9D746E2CD4407A4 /* Pods_chinmayframework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chinmayframework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6D46B55227A931979FA2C41D8153865 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABC85BCBB2C4A98D8E8E27576C9A8C22 /* Pods-chinmayframework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-chinmayframework_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		ABF4EBEDC63EFD09575F6D48754D2C61 /* chinmayframework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = chinmayframework.modulemap; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		B04367753D26F0C7337D5AD4731E42F9 /* Pods-chinmayframework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-chinmayframework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C9516AA4B4EF2BFF50EB9BC37944C2E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE7D5A214F54DBBDF9AD0DFD82044AF3 /* Pods-chinmayframework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-chinmayframework_Example-dummy.m"; sourceTree = "<group>"; };
-		D5E5FF58AEAE288A667114EC42A58DBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D5E5FF58AEAE288A667114EC42A58DBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D7A5179CA2E35E7EB31985428FCF64BA /* chinmayframework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "chinmayframework-umbrella.h"; sourceTree = "<group>"; };
 		DF0E3BA6E89ED8A74ACDDF4A419A465D /* Pods-chinmayframework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-chinmayframework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -156,6 +156,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		60B7AB612223C2F000A44656 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				60B7AB622223C31200A44656 /* myFirstClass.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		6468BD2A6D90A95DED9A3A8B591A619F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,7 +227,7 @@
 		F818ABF91DD2962C759C5F11A7A2F2F3 /* chinmayframework */ = {
 			isa = PBXGroup;
 			children = (
-				5AD32A231D36117E59C78FE380A848A9 /* ReplaceMe.swift */,
+				60B7AB612223C2F000A44656 /* Classes */,
 				B08D656BF1465BC91A65D7EFFCDB51FA /* Pod */,
 				9D74A3999019A44D55813421EE3DA18C /* Support Files */,
 			);
@@ -321,6 +329,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					D6687DE2B4F64CD626C324062C2EB69E = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -387,7 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F70D704013BEE11CFFDE57029DB67149 /* chinmayframework-dummy.m in Sources */,
-				940915DBFFA2E66A4AB4BD0EE473FC50 /* ReplaceMe.swift in Sources */,
+				60B7AB632223C31200A44656 /* myFirstClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,8 +610,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -608,6 +620,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 26C373E3460ACC8FC4E23374AC2A2D66 /* chinmayframework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -640,6 +653,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 26C373E3460ACC8FC4E23374AC2A2D66 /* chinmayframework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -660,6 +674,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
