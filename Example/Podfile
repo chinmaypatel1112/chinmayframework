@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'chinmayframework_Example' do
+  pod 'chinmayframework', :path => '../'
+
+  target 'chinmayframework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
