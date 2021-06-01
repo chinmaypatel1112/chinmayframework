@@ -46,6 +46,7 @@ extension UIView {
         let rB = fB + dB * CGFloat(percent)
         
         return UIColor(red: rR, green: rG, blue: rB, alpha: 1.0)
+        
     }
     
     // Pass in the scroll percentage to get the appropriate color
